@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
   res.send('Server Working');
 });
 
-require('./Musicbot/musicbot.js')(app);
+require('./Music_Bot/musicbot.js')(app);
 
 app.listen(3000, () => {
   console.log('Server running on port 3000');
